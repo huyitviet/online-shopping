@@ -125,7 +125,7 @@ function Cart() {
             <Text style={{ margin: 30 }}> Tổng tiền sản phẩm </Text>
           </View>
           <View style={styles.bottomTopLeft}>
-            <Text style={{ margin: 30 }}> {sumMoney} </Text>
+            <Text style={{ margin: 30 }}> {sumMoney} đ </Text>
           </View>
         </View>
 
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   },
 
   middle1: {
-    flex: 3,
+    flex: 5,
     backgroundColor: "darkorange",
     flexDirection: 'column',
   },
