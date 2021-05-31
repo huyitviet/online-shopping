@@ -64,7 +64,7 @@ function Cart() {
                 onChangeText={count1 => setText1(count1)}
                 defaultValue={text}
               /> */}
-              <Text style={{marginVertical: 20}}> Số lượng: {count1} sản phẩm</Text>
+              <Text style={{ marginVertical: 20 }}> Số lượng: {count1} sản phẩm</Text>
 
 
 
@@ -101,7 +101,7 @@ function Cart() {
                 }}
                 title={"-"}
               />
-              <Text style={{marginVertical: 20}}> Số lượng: {count2} sản phẩm</Text>
+              <Text style={{ marginVertical: 20 }}> Số lượng: {count2} sản phẩm</Text>
 
 
 
@@ -130,7 +130,9 @@ function Cart() {
         </View>
 
         <View style={styles.bottomBot}>
+          <TouchableOpacity onPress={() => { Alert.alert('huyitviet', 'Xác nhận thanh toán') }}>
           <Text style={{ margin: 30, justifyContent: 'center' }}> Mua hàng</Text>
+          </TouchableOpacity>
         </View>
       </View>
 
